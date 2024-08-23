@@ -1,6 +1,6 @@
 module.exports = {
 	preset: 'jest-expo',
-	setupFiles: ['./jestSetup.js'], // Arquivo de configuração adicional se necessário
+	// setupFiles: ['./jestSetup.js'], // Arquivo de configuração adicional se necessário
 	testPathIgnorePatterns: [
 	  '/node_modules/',
 	  '/android/',
