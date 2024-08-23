@@ -6,3 +6,8 @@ pre-commit:
     prettier:
       runner: prettier --check
       glob: "src/**/*.{js,jsx,ts,tsx,json,css,md}"
+      
+prepare-commit-msg:
+  commands:
+    commitlint:
+      runner: commitlint --edit $HUSKY_GIT_PARAMS
